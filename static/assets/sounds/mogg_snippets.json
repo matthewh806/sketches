@@ -1,0 +1,25 @@
+{
+  "resources": [
+    "mogg_snippets.ogg",
+    "mogg_snippets.m4a",
+    "mogg_snippets.mp3",
+    "mogg_snippets.ac3"
+  ],
+  "spritemap": {
+    "mogg_snippet-001": {
+      "start": 0,
+      "end": 5.8979591836734695,
+      "loop": false
+    },
+    "mogg_snippet-002": {
+      "start": 7,
+      "end": 14.122448979591837,
+      "loop": false
+    },
+    "mogg_snippet-003": {
+      "start": 16,
+      "end": 18.293786848072564,
+      "loop": false
+    }
+  }
+}
