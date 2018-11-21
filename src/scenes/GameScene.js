@@ -31,6 +31,7 @@ export default class GameScene extends Phaser.Scene {
     }
 
 		this.mogg = this.add.image(200, this.sys.game.config.height - 300, 'mogg');
+		this.farage = this.add.image(100, this.sys.game.config.height - 200, 'farage');
 
 		this.mogg_snippets = this.sound.addAudioSprite('mogg_snippets');
 		this.mogg_snippets_map = this.cache.json.get('mogg_snippets').spritemap;

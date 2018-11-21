@@ -15,7 +15,7 @@ export default class TitleScene extends Phaser.Scene {
 		startButton.setInteractive();
 
 		startButton.on('pointerup', () => {
-			console.log("Congratulations! You are the new Brexit minister!");
+			this.sound.play('big_ben');
 			this.scene.start('GameScene');
 		})
 

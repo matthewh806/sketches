@@ -21,7 +21,11 @@ export default class BootScene extends Phaser.Scene {
 
 		this.load.image('may', 'static/assets/images/may.png');
 		this.load.image('mogg', 'static/assets/images/mogg.png');
+		this.load.image('farage', 'static/assets/images/farage.png');
 		this.load.image('hat', 'static/assets/images/top_hat.png');
+
+		this.load.audio('big_ben', 'static/assets/sounds/big_ben_strike.wav');
+		this.load.audio('eastenders', 'static/assets/sounds/eastenders_theme.wav');
 
 		this.load.audioSprite(
 			'mogg_snippets', 
